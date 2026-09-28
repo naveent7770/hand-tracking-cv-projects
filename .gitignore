@@ -1,1 +1,25 @@
-﻿venv311/
+﻿# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+*.pyo
+
+# Secrets / local config
+.env
+
+# Temporary files
+*.tmp

@@ -1,34 +1,29 @@
-# Hand Tracking CV Projects
+# Virtual Mouse and Keyboard Using Hand Gesture Recognition
 
-A computer vision project built with Python, OpenCV and MediaPipe.
+A Python-based project that allows users to control the mouse and type using hand gestures through a webcam.
 
 ## Features
-- Virtual Mouse
-- Hand Tracking
-- Gesture Recognition
-- Real-time Webcam Detection
+
+- Hand gesture-based mouse control
+- Left click using pinch gesture
+- Virtual keyboard
+- Type text using hand gestures
+- Backspace, Space and Clear functions
+- Real-time hand tracking
+- Webcam-based interaction
 
 ## Technologies Used
+
 - Python
 - OpenCV
 - MediaPipe
+- NumPy
+- PyAutoGUI
 
 ## How to Run
 
-1. Clone the repository:
-```bash
-git clone https://github.com/naveent7770/hand-tracking-cv-projects.git
-```
+1. Install Python 3.11
+2. Install required libraries:
 
-2. Install dependencies:
 ```bash
-pip install -r requirements.txt
-```
-
-3. Run the project:
-```bash
-python virtual_mouse_keyboard.py
-```
-
-## Author
-**Naveen Tiwari**
+pip install numpy==1.26.4 opencv-python mediapipe==0.10.21 pyautogui
